@@ -1,0 +1,61 @@
+body {
+
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+} 
+h1 {
+    color: goldenrod;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: goldenrod;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h4 {
+    color: goldenrod;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.TBE{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin: auto;
+}
+
+
+.caixa{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin: auto;
+}
+.texto {
+   width: 90%;
+}
+.foto {
+   width: 90%;
+
+}
+.foto img {
+   width: 80%;
+   border-radius: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    object-fit: fill;
+}
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
